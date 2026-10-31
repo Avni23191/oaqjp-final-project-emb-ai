@@ -34,3 +34,8 @@ jobs:
     - name: Run unit tests with pytest
       run: |
         pytest
+
+
+    - name: Run unit tests with nose
+      run: |
+        nosetests
